@@ -118,10 +118,6 @@ body {
     opacity: 70%;
   }
   
-  .image-opacity:hover {
-    opacity: 100%;
-  }
-  
   p {
     color: white;
     font-family: "Bebas Neue", cursive;
@@ -135,6 +131,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .image-opacity:hover {
+    opacity: 100%;
   }
   
   a {
@@ -199,13 +199,14 @@ body {
       font-family: "Open Sans", sans-serif;
       font-size: 11px;
       margin: 0;
+      line-height: 1.2;
       text-decoration: none;
     }
   
     .social-icons {
       display: flex;
       justify-content: flex-start;
-      margin: 3px 3px 3px 0;
+      margin: 6px 3px 3px 0;
       text-decoration: none;
     }
   
@@ -213,4 +214,5 @@ body {
       display: none;
     }
   }
+  
   
